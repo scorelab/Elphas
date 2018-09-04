@@ -5,6 +5,10 @@ To activate front-end, inside the dir run
 ```
 npm install
 ```
+afterwards,
+```
+npm start
+```
 
 In the back-end you would find requirements.txt which includes all the required modules. To install them run
 ```
