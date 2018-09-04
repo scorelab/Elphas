@@ -1,0 +1,7 @@
+
+*.xml
+*.iml
+front-end/node_modules/
+*.idea
+*.xml
+*.cmd
