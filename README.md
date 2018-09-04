@@ -10,7 +10,7 @@ afterwards,
 npm start
 ```
 
-In the back-end you would find requirements.txt which includes all the required modules. To install them run
+In the back-end you would find requirements.txt which includes all the required modules. To install those run inside the dir
 ```
 pip install -r requirements.txt
 ```
