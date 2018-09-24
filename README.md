@@ -14,9 +14,9 @@ In the back-end you would find requirements.txt which includes all the required 
 ```
 pip install -r requirements.txt
 ```
-in the back-end dir. Anaconda environment is preferred.
+An Anaconda environment is preferred.
 
-If using windows, as the server is written in ap.py, run
+If using windows, as the server is written in app.py, run
 ```
 set FLASK_APP=app.py
 flask run
