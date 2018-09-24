@@ -4,11 +4,11 @@ import {auth, database} from '../../firebase/index'
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
-import Button from "@material-ui/core/es/Button/Button";
+import Button from "@material-ui/core/Button/Button";
 import Slide from '@material-ui/core/Slide';
 import withStyles from "material-ui/styles/withStyles";
 import modalStyle from "../../assets/jss/material-kit-react/modalStyle";
-import Dialog from "@material-ui/core/es/Dialog/Dialog";
+import Dialog from "@material-ui/core/Dialog/Dialog";
 
 
 

@@ -12,10 +12,10 @@ import Classification from "./ClassifiedTable/Classification";
 import ProcessButton from "./ProcessButton";
 import Upload from "./Upload";
 import './home.css';
-import FormControlLabel from "@material-ui/core/es/FormControlLabel/FormControlLabel";
-import Switch from "@material-ui/core/es/Switch/Switch";
-import FiberManualRecord from "@material-ui/icons/es/FiberManualRecord";
-import Radio from "@material-ui/core/es/Radio/Radio";
+import FormControlLabel from "@material-ui/core/FormControlLabel/FormControlLabel";
+import Switch from "@material-ui/core/Switch/Switch";
+import FiberManualRecord from "@material-ui/icons/FiberManualRecord";
+import Radio from "@material-ui/core/Radio/Radio";
 import logo from '../../assets/img/wait.svg';
 
 class HomePage extends React.Component {

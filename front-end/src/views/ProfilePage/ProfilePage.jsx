@@ -11,15 +11,15 @@ import Parallax from "../../assets/components/Parallax/Parallax.jsx";
 import profile from "assets/img/faces/avatar.jpg";
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
-import Camera from "@material-ui/icons/es/Camera";
-import Palette from "@material-ui/icons/es/LocationOn";
+import Camera from "@material-ui/icons/Camera";
+import Palette from "@material-ui/icons/LocationOn";
 import NavPills from "../../assets/components/NavPills/NavPills";
-import Settings from "@material-ui/icons/es/Settings";
+import Settings from "@material-ui/icons/Settings";
 import logo from '../../assets/img/wait.svg';
 import CustomDropdown from "../../assets/components/CustomDropdown/CustomDropdown";
 import Link from "react-router-dom/es/Link";
 import {MapLoco} from "./Maps/Maps";
-import Button from "@material-ui/core/es/Button/Button";
+import Button from "@material-ui/core/Button/Button";
 
 class ProfilePage extends React.Component {
     constructor(props){

@@ -18,7 +18,7 @@ import CardFooter from "../../assets/components/Card/CardFooter.jsx";
 import loginPageStyle from "assets/jss/material-kit-react/views/loginPage.jsx";
 
 import {auth, database} from "../../firebase";
-import TextField from "@material-ui/core/es/TextField/TextField";
+import TextField from "@material-ui/core/TextField/TextField";
 import withRouter from "react-router-dom/es/withRouter";
 
 const INITIAL_STATE = {

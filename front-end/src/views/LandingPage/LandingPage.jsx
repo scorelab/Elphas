@@ -8,7 +8,7 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 
 // Sections for this page
 import SectionCarousel from "./Sections/Carousel";
-import Paper from "@material-ui/core/es/Paper/Paper";
+import Paper from "@material-ui/core/Paper/Paper";
 
 const style = {
     height: '65%',

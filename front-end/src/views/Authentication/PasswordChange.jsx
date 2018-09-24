@@ -3,7 +3,7 @@ import Paper from 'material-ui/Paper';
 import { auth } from '../../firebase/index';
 import TextField from 'material-ui/TextField';
 import {Link} from 'react-router-dom';
-import Button from "@material-ui/core/es/Button/Button";
+import Button from "@material-ui/core/Button/Button";
 
 const font = "'Varela Round', sans-serif";
 

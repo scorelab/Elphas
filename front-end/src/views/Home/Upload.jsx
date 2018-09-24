@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Dropzone from 'react-dropzone';
 import axios from 'axios';
 import './dropzone.css'
-import Button from "@material-ui/core/es/Button/Button";
+import Button from "@material-ui/core/Button/Button";
 import withStyles from "material-ui/styles/withStyles";
 import profilePageStyle from "../../assets/jss/material-kit-react/views/profilePage";
 import classNames from "classnames";
