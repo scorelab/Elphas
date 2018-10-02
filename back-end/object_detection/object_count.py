@@ -1,6 +1,7 @@
 import object_detect
 import os
 
+
 def get_count(img_path):
     return object_detect.get_single_count(image_path)
 
