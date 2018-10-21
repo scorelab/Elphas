@@ -11,7 +11,7 @@ Elphas is currently used to count the number of elephants in an image or to clas
 + Two neural networks are available (Google's InceptionV3 and Microsoft's ResNet50)
 * Retraining is available for Inception with a custom dataset and ResNet is used as an api from Keras.
 4. Counting of elephants
-..* By Tensorflow's object detection api where the NN model can be again trained with a custom dataset.
+* By Tensorflow's object detection api where the NN model can be again trained with a custom dataset.
 5. Getting the count based on locations. (Images should be geo tagged)
 6. Interface to see the results.
 7. Reporting for misclassified or miscounted images.
