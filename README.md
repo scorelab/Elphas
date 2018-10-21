@@ -18,7 +18,6 @@ Elphas is currently used to count the number of elephants in an image or to clas
 8. User authentication based on google account or email account and updation of passwords if using an email account. 
 
 ## High Level Architecture
-Inline-style:![alt text](https://drive.google.com/open?id=1kNfGR7mw8N9Q5B1jVsfJfJ121f9xUf1c)
 
 ##Installation
 To activate front-end, inside front-end
