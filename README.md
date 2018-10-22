@@ -19,7 +19,7 @@ Elphas is currently used to count the number of elephants in an image or to clas
 
 ## High Level Architecture
 
-##Installation
+### Installation
 To activate front-end, inside front-end
 ```
 npm install
