@@ -50,4 +50,6 @@ flask run
 ```
 to start the server. 
 
+But at the moment, the dataset used to train the inception model is not available, you would find an empty directory inside retraining dir in back-end. To retrain the model, add two sub directories 'elephant' and 'non-elephant' and your images which falls under the respective class, then run retrain.py script 
+
 
