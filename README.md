@@ -50,6 +50,9 @@ flask run
 ```
 to start the server. 
 
-But at the moment, the dataset used to train the inception model is not available, you would find an empty directory inside retraining dir in back-end. To retrain the model, add two sub directories 'elephant' and 'non-elephant' and your images which falls under the respective class, then run retrain.py script 
+## Repo Status
+At the moment, classsification of the images won't work as the weight files of the model are not present beacuse of their file size, and also the the dataset used to train the inception model is not available, you would find an empty directory inside retraining dir in back-end. 
+To get the classification working you'd need to run retrain.py script to retrain the model.
+To retrain the model, add two sub directories 'elephant' and 'non-elephant' inside dataset directory and your images which falls under the respective class, then run retrain.py script. 
 
 
