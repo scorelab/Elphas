@@ -1,7 +1,35 @@
+# compiled output
+/front-end/build
 
-*.xml
-*.iml
-front-end/node_modules/
-*.idea
-*.xml
-*.cmd
+# dependencies
+/front-end/node_modules
+/front-end/package-lock.json
+
+# IDEs and editors
+/.idea
+/front-end/.idea
+/back-end/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/front-end/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+/front-end/npm-debug.log
+/front-end/yarn-error.log
+
+# System Files
+/back-end/.DS_Store
