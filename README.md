@@ -20,7 +20,7 @@ Elphas is currently used to count the number of elephants in an image or to clas
 ## High Level Architecture
 ![](https://lh3.googleusercontent.com/-63RMjBi6F8wc-7DEH7Xe67JDYeV39k6wU-2DHYgk-5U1A5eXgbpYRNpUkUaV5mYQyc3r8Yklf-iOipGQ3vLy4Vy7bw5cDTJ8Rr52WQI3rcH_x7TAL4y2Q0r7935-IfoWHOUXdRAwXYoRCSocSZr2sCgI41YJ7ma2h8G9SNSv8lYH_svdIQ2qBjAXcLfOH20z-RgPNoDEauREkXoP3ZpKSe0Wyd_Oon6Bm6UYAk9LZK49LDYqJZMXogRmVH2FXTW2gGFBgdFw0DmSkhB6bTT4NUFVcJAQNPqyDHERhwCvZfgeDptcBBpl4CVNba9UzZAnLGKhtXRVHBPc_te3Gz5Cm8ZJpn0TWAu7c0f_vj2tt81M1MyxLI6H-01DQdY-4Ad1gkBumFrFuqvUqj3D5SZI0Z2qdjC27aOER464-FES2SLvH0X4c7kF9zS8XWePKw12gmGtStcLEYwPgUOqrozmAnfg9I6zxfSc7khyfvmbd2gSo9PGUsbZtx-1AZx6ColIugY-OHz0As2aNad9xTOgB3wnRW50l6OaPZ_tZc1s_j9dm6ud6ue0UoegIh9GjbYV6WEXKuaI0NDiebVwCSzlZvFx98xDRJU6dFCiLVS2eFnJEGQVn9agZNo3UBw-uw=w2650-h1596-no) 
 
-##Installation
+## Installation
 To activate front-end, inside front-end execute
 ```
 npm install
