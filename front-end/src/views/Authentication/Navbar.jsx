@@ -3,7 +3,7 @@ import React from "react";
 // react components for routing our app without refresh
 import { Link } from "react-router-dom";
 // material-ui components
-import withStyles from "material-ui/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 // core components
 import Header from "../../assets/components/Header/Header.jsx";

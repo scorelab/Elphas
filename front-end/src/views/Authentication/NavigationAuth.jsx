@@ -1,5 +1,5 @@
 import navbarsStyle from "../../assets/jss/material-kit-react/views/componentsSections/navbarsStyle";
-import withStyles from "material-ui/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 import Header from "../../assets/components/Header/Header";
 import React from "react";
 import {auth} from "../../firebase";

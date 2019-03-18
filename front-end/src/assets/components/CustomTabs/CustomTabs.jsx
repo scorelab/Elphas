@@ -5,7 +5,7 @@ import classNames from "classnames";
 import PropTypes from "prop-types";
 
 // material-ui components
-import withStyles from "material-ui/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 // import Card from "material-ui/Card";
 // import CardContent from "material-ui/Card/CardContent";
 // import CardHeader from "material-ui/Card/CardHeader";

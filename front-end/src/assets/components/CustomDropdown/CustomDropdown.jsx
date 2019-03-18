@@ -3,16 +3,16 @@ import React from "react";
 import classNames from "classnames";
 // nodejs library to set properties for components
 import PropTypes from "prop-types";
-import { Manager, Target, Popper } from "react-popper";
+import { Manager, Reference, Popper } from "react-popper";
 
 // material-ui components
-import withStyles from "material-ui/styles/withStyles";
-import MenuItem from "material-ui/Menu/MenuItem";
-import MenuList from "material-ui/Menu/MenuList";
-import ClickAwayListener from "material-ui/utils/ClickAwayListener";
-import Paper from "material-ui/Paper";
-import Grow from "material-ui/transitions/Grow";
-import Divider from "material-ui/Divider";
+import withStyles from "@material-ui/core/styles/withStyles";
+import MenuItem from "@material-ui/core/MenuItem";
+import MenuList from "@material-ui/core/MenuList";
+import ClickAwayListener from "@material-ui/core/ClickAwayListener";
+import Paper from "@material-ui/core/Paper";
+import Grow from "@material-ui/core/Grow";
+import Divider from "@material-ui/core/Divider";
 
 // core components
 import Button from "../CustomButtons/Button.jsx";
@@ -61,7 +61,7 @@ class CustomDropdown extends React.Component {
     });
     return (
       <Manager>
-        <Target>
+        <Reference>
           <Button
             aria-label="Notifications"
             aria-owns={open ? "menu-list" : null}
@@ -75,7 +75,7 @@ class CustomDropdown extends React.Component {
             {buttonText !== undefined ? buttonText : null}
             {caret ? <b className={caretClasses} /> : null}
           </Button>
-        </Target>
+        </Reference>
         <Popper
           placement={
             dropup

@@ -5,8 +5,8 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 
 // material-ui components
-import withStyles from "material-ui/styles/withStyles";
-import Button from "material-ui/Button";
+import withStyles from "@material-ui/core/styles/withStyles";
+import Button from "@material-ui/core/Button";
 
 import paginationStyle from "assets/jss/material-kit-react/components/paginationStyle.jsx";
 

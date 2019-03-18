@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Paper from 'material-ui/Paper';
+import Paper from '@material-ui/core/Paper';
 import { auth } from '../../firebase/index';
-import TextField from 'material-ui/TextField';
+import TextField from '@material-ui/core/TextField';
 import {Link} from 'react-router-dom';
 import Button from "@material-ui/core/Button/Button";
 

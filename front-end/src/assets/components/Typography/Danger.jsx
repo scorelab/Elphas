@@ -1,7 +1,7 @@
 import React from "react";
 // nodejs library to set properties for components
 import PropTypes from "prop-types";
-import { withStyles } from "material-ui";
+import { withStyles } from "@material-ui/core";
 
 import typographyStyle from "assets/jss/material-kit-react/components/typographyStyle.jsx";
 

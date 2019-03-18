@@ -3,7 +3,7 @@ import classNames from "classnames";
 import Parallax from "../../assets/components/Parallax/Parallax";
 import AdminPage from "./Admin/AdminPage";
 import ProfilePage from "./ProfilePage";
-import withStyles from "material-ui/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 import profilePageStyle from "../../assets/jss/material-kit-react/views/profilePage";
 import logo from '../../assets/img/wait.svg';
 

@@ -1,11 +1,13 @@
 import React from "react";
 import { createBrowserHistory } from "history";
-import { Router, Route, Switch } from "react-router";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Route } from "react-router-dom";
+import { Switch } from "react-router-dom";
 
-import indexRoutes from "routes/index.jsx";
+import indexRoutes from "../routes/index.jsx";
 
-import "assets/scss/material-kit-react.css";
-import Navbar from "views/Authentication/Navbar";
+import "../assets/scss/material-kit-react.css";
+import Navbar from "../views/Authentication/Navbar";
 import withAuthentication from "./Authentication/withAuthentication";
 
 var hist = createBrowserHistory();
@@ -22,7 +24,6 @@ class App extends React.Component{
                         })}
                     </Switch>
                 </div>
-
             </Router>
         )
     }

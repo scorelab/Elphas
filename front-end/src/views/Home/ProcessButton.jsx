@@ -6,7 +6,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import Button from "@material-ui/core/Button/Button";
 import Slide from '@material-ui/core/Slide';
-import withStyles from "material-ui/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 import modalStyle from "../../assets/jss/material-kit-react/modalStyle";
 import Dialog from "@material-ui/core/Dialog/Dialog";
 
