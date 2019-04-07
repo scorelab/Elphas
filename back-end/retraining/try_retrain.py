@@ -29,10 +29,10 @@ import argparse
 # Paths to files producted as part of retraining Inception.  Change these if you saved your files in
 #   a different location.
 #   Retrained graph
-MODEL_PATH = os.path.split(os.getcwd())[0]+"/back-end/tmp/output_graph.pb"
+MODEL_PATH = os.path.split(os.getcwd())[0] + "/back-end/tmp/output_graph.pb"
 #   Labels the newly retrained graph.  These would be the new classes being classified
 #       such as "Rose, Dandillion, ..."
-LABEL_PATH = os.path.split(os.getcwd())[0]+"/back-end/tmp/output_labels.txt"
+LABEL_PATH = os.path.split(os.getcwd())[0] + "/back-end/tmp/output_labels.txt"
 
 
 # Load the retrained graph as the default graph
@@ -79,15 +79,17 @@ def predict_image_class(imagePath, labelPath):
         # using the new classes we retrained Inception to recognize.
         #   We find the final result tensor by name in the retrained model
         softmax_tensor = sess.graph.get_tensor_by_name('final_result:0')
-        #   Get the predictions on our image by add the image data to the tensor
+        # Get the predictions on our image by add the image data to the tensor
         predictions = sess.run(softmax_tensor,
                                {'DecodeJpeg/contents:0': image_data})
 
         # Format predicted classes for display
-        #   use np.squeeze to convert the tensor to a 1-d vector of probability values
+        # use np.squeeze to convert the tensor to a 1-d vector of probability
+        # values
         predictions = np.squeeze(predictions)
 
-        top_k = predictions.argsort()[-5:][::-1]  # Getting the indicies of the top 5 predictions
+        # Getting the indicies of the top 5 predictions
+        top_k = predictions.argsort()[-5:][::-1]
 
         #   read the class labels in from the label file
         f = open(labelPath, 'rb')
@@ -103,8 +105,8 @@ def predict_image_class(imagePath, labelPath):
 
         # print("")
 
-        answer=[]
-        answer.append(labels[top_k[0]][2:len(labels[top_k[0]])-3])
+        answer = []
+        answer.append(labels[top_k[0]][2:len(labels[top_k[0]]) - 3])
         answer.append(predictions[top_k[0]])
 
         return answer

@@ -6,14 +6,15 @@ import tensorflow as tf
 from keras.applications.resnet50 import ResNet50, preprocess_input, decode_predictions
 target_size = (224, 224)
 
+
 def load_model():
-	global model
-	model = ResNet50(weights="imagenet")
-	global graph
-	graph = tf.get_default_graph()
+    global model
+    model = ResNet50(weights="imagenet")
+    global graph
+    graph = tf.get_default_graph()
+
 
 def predict(model, img, target_size, top_n=3):
-
     """Run model prediction on image
     Args:
         model: keras model
@@ -23,7 +24,6 @@ def predict(model, img, target_size, top_n=3):
         Returns:
             list of predicted labels and their probabilities
             """
-
 
     if img.size != target_size:
         img = img.resize(target_size)
@@ -36,6 +36,7 @@ def predict(model, img, target_size, top_n=3):
         preds = model.predict(x)
 
     return decode_predictions(preds, top=top_n)[0]
+
 
 def resNetClassify(image_path):
     if image_path is None:
@@ -52,8 +53,3 @@ def resNetClassify(image_path):
 
 # if __name__=="__main__":
 #     resNetClassify("top_view_ele.jpg")
-
-
-
-
-

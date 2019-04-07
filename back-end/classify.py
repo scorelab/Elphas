@@ -6,6 +6,7 @@ import object_detect
 def count(image_path):
     return object_detect.get_single_count(image_path)
 
+
 def inception(image_path):
     preds = try_retrain.scan(image_path)
 
@@ -14,6 +15,7 @@ def inception(image_path):
     else:
         return 0
 
+
 def mobileNet(image_path):
     preds = try_retrain.scan(image_path)
 
@@ -21,6 +23,7 @@ def mobileNet(image_path):
         return 1
     else:
         return 0
+
 
 def resNet50(image_path):
 
@@ -34,4 +37,3 @@ def resNet50(image_path):
 
 def retrain_network():
     retrain.start_retrain()
-
