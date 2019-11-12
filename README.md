@@ -17,18 +17,16 @@ Elphas is currently used to count the number of elephants in an image or to clas
 7. Reporting for misclassified or miscounted images.
 8. User authentication based on google account or email account and updation of passwords if using an email account. 
 
-## High Level Architecture
-![](https://lh3.googleusercontent.com/-63RMjBi6F8wc-7DEH7Xe67JDYeV39k6wU-2DHYgk-5U1A5eXgbpYRNpUkUaV5mYQyc3r8Yklf-iOipGQ3vLy4Vy7bw5cDTJ8Rr52WQI3rcH_x7TAL4y2Q0r7935-IfoWHOUXdRAwXYoRCSocSZr2sCgI41YJ7ma2h8G9SNSv8lYH_svdIQ2qBjAXcLfOH20z-RgPNoDEauREkXoP3ZpKSe0Wyd_Oon6Bm6UYAk9LZK49LDYqJZMXogRmVH2FXTW2gGFBgdFw0DmSkhB6bTT4NUFVcJAQNPqyDHERhwCvZfgeDptcBBpl4CVNba9UzZAnLGKhtXRVHBPc_te3Gz5Cm8ZJpn0TWAu7c0f_vj2tt81M1MyxLI6H-01DQdY-4Ad1gkBumFrFuqvUqj3D5SZI0Z2qdjC27aOER464-FES2SLvH0X4c7kF9zS8XWePKw12gmGtStcLEYwPgUOqrozmAnfg9I6zxfSc7khyfvmbd2gSo9PGUsbZtx-1AZx6ColIugY-OHz0As2aNad9xTOgB3wnRW50l6OaPZ_tZc1s_j9dm6ud6ue0UoegIh9GjbYV6WEXKuaI0NDiebVwCSzlZvFx98xDRJU6dFCiLVS2eFnJEGQVn9agZNo3UBw-uw=w2650-h1596-no) 
 
 ## Installation
-To activate front-end, inside front-end execute
+### Front-End 
+To activate front-end, execute this in terminal
 ```
 npm install
-```
-after the node modules are downloaded, execute
-```
+
 npm start
 ```
+### BackEnd
 
 In the back-end you would find requirements.txt which includes all the required modules. To install those, in the back-end run
 ```
@@ -43,7 +41,7 @@ flask run
 ```
 to start the server.
 
-For linux or mac run
+For Linux or Mac run
 ```
 export FLASK_APP=app.py
 flask run
@@ -53,7 +51,14 @@ to start the server.
 ## Repo Status
 At the moment, classsification of the images won't work as the weight files of the model are not present beacuse of their file size, and also the the dataset used to train the inception model is not available, you would find an empty directory inside retraining dir in back-end, if not make a directory 'dataset' inside retrain directory. 
 
-To get the classification working you'd need to run retrain.py script to retrain the model.
+### Classification
 To retrain the model, add two sub directories 'elephant' and 'non-elephant' inside dataset directory and your images which falls under the respective class, then run retrain.py script. 
+
+```
+cd /back-end/retraining/
+python3 retrain.py
+
+```
+
 
 
